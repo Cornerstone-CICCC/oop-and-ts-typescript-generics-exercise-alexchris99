@@ -2,7 +2,7 @@
 // and returns them as a tuple/array. 
 // Pass `true` and `42` as arguments and log the result.
 
-// we need to add to generic to the arrow function so it acceps any type of var
+// we need to add to generic to the arrow function so it acceps any type of var and the return is an array []
 
 const createPair =<T,U> (first: T, second: U):[T,U] => [first, second];
 

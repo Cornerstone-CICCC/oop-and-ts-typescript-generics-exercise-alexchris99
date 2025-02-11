@@ -1,7 +1,8 @@
 // 4. Create a generic class called `Container` that stores a value of any type.
 // Add methods to `getValue` and `setValue`.
 // Initialize it with "Initial Value", update it to "Updated Value", and log the new value.
-// we need to asociate the type of th einput tho the private value and asing the type to the var value
+
+// we need to asociate the type of the input tho the private value and asing the type to the var value
 class Container<T>{
   private value: T;
 
